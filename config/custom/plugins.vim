@@ -2,7 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Lista de complementos
-
+" Lista en reserva 
 " =============================================================================
 " SYNTAX
 Plug 'jiangmiao/auto-pairs'
@@ -32,7 +32,7 @@ Plug 'junegunn/fzf'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Or build from source code by using yarn: https://yarnpkg.com
-"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 " =============================================================================
 " =============================================================================
 " IDE
