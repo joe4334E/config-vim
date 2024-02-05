@@ -12,16 +12,19 @@ so ~/.vim/custom/maps.vim
 so ~/.vim/custom/config.vim
 " CONFIGURACION DE VIM 
 
-set number 
+set number
+syntax on 
 set sw=2
 set ruler
 syntax enable
 set relativenumber
 
 " Esquema de color predeterminado 
-" colorscheme apprentice
+colorscheme apprentice
+" Elimina el sonido 
 set belloff=all
-" En tu archivo .vimrc
+
+"En tu archivo .vimrc, Habilitacion de acentos. etc 
 set encoding=utf-8
 
 
